@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    float cp, sp, profit, loss, profit_percentage, loss_percentage;
+    printf("Enter the cost price: ");
+    scanf("%f", &cp);
+    printf("Enter the selling price: ");
+    scanf("%f", &sp);
+    profit = sp - cp;
+    loss = cp - sp;
+    profit_percentage = ( profit / cp ) * 100;
+    loss_percentage = ( loss / cp ) * 100;
+    printf("Profit: %f \nLoss: %f \nProfit%%: %f\nLoss%%; %f\n", profit, loss, profit_percentage, loss_percentage);
+    return 0;
+} 
