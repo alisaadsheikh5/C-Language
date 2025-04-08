@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+  int i,a,b,p;
+  printf("Enter the number you want to make table of: ");
+  scanf("%d",&a);
+  printf("\nEnter the number till what number you want to make the table: ");
+  scanf("%d",&b);
+  for(i=1;i<=b;i++) {
+  p=a*i;
+  printf("\n%d x %d = %d",a,i,p);
+}
+  return 0;
+}
