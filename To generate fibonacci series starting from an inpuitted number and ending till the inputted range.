@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int i, a, b=1, next, d;
+    printf("Enter starting number: ");
+    scanf("%d", &a);
+    printf("Enter ending number: ");
+    scanf("%d", &d);
+    for(i=a;i<=d;i++)
+    {
+        printf("%d",a);
+        next=a+b;
+        a=b;
+        b=next;
+    }
+    return 0;
+}
