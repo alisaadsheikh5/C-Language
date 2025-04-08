@@ -1,8 +1,3 @@
-Absolutely, Ali! Here's your ready-to-copy `README.md` content — just copy and paste it directly into your README file:
-
----
-
-```markdown
 # 💻 C Programming Code Collection
 
 Welcome to my **C Programming** repository!  
