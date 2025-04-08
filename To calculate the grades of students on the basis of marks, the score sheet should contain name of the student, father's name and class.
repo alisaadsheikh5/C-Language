@@ -1,0 +1,40 @@
+#include <stdio.h>
+int main () {
+    char name[25];
+    printf("Enter your name: ");
+    scanf("%s", name);
+    char fname[25];
+    printf("Enter your father name: ");
+    scanf("%s", fname);
+    int class;
+    printf("Enter your class: ");
+    scanf("%d", &class);
+  float marks;
+  printf("Enter your marks: ");
+  scanf("%f", &marks);
+  printf("Name: %s\n", name);
+  printf("Father Name: %s\n", fname);
+  printf("Class: %d\n", class);
+  if (marks>100) {
+    printf("Wrong Input");
+  }
+  else if (marks>=90) {
+    printf("Your grade is A+");
+}
+  else if (marks>=70) {
+    printf("Your grade is A");
+  }
+  else if (marks>=60) {
+    printf("Your grade is B");
+  }
+  else if (marks>=50) {
+    printf("Your grade is C");
+  }
+  else if (marks<50) {
+    printf("Your are fail!");
+  }
+  else {
+    printf("Wrong input");
+  }
+  return 0;
+}
