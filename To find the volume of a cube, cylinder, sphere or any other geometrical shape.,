@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main () {
+    float radius, volume, PI = 3.14159;
+    printf("Enter the radius of the sphere: ");
+    scanf("%f", &radius);
+    volume = ( 4.0 / 3.0 ) * PI * radius * radius * radius;
+    printf("\nThe volume of the sphere is %f", volume);
+    return 0;
+}
