@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main () {
+    char name[25];
+    printf("Enter consumer name: ");
+    scanf("%s", &name);
+    char meter[25];
+    printf("Enter your meter number: ");
+    scanf("%s", &meter);
+    float units, bill;
+    printf("Enter units:");
+    scanf("%f", &units);
+    bill = units * 15 + 500; // 15 is rate per unit and 500 is government tax
+    printf("Consumer Name: %s\n", name);
+    printf("Meter Number: %s\n", meter);
+    printf("Units Consumed: %f\n", units);
+    printf("Total Bill: %f\n", bill);
+    return 0;
+}
